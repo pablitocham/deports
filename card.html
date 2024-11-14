@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Tu compra</title>
+</head>
+
+<body>
+    <header>
+        <a href="./index.html"><img src="./img/logo.png" id="logo" alt="deport logo"></a>
+        <div>
+            <nav>
+                <a href="./card.html"><img src="img/carrit-logo.png" alt="Carrito"><span
+                        id="cuenta-carrito">0</span></a>
+            </nav>
+        </div>
+    </header>
+    <section id="productos-container"></section>
+    <section id="totales">
+        <p>Total de productos: <span id="unidades">0</span></p>
+        <p>Sub-Total: <span id="precio-f">0</span></p>
+        <button id="confirmar">Comprar</button>
+        <button id="reiniciar">Reiniciar Compra</button>
+    </section>
+    <footer>
+        <h3>Todos los derechos Reservados Deports</h3>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./card.js" defer></script>
+</body>
+
+</html>
