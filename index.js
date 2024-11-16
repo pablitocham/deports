@@ -26,8 +26,10 @@ function mostrarProductos() {
                 <img src="${producto.img}" alt="${producto.nombre}" />
                 <p>${precioFormateado}</p> <!-- Mostrar el precio formateado -->
                 <p>Stock: ${producto.stock}</p>
+                <div class="btn">
                 <button class="boton" onclick="agregarCarrito(${producto.id})">Agregar</button>
-            </div>`;
+                </div>
+                </div>`;
         contenedorDeTarjetas.appendChild(nuevaCamiseta);
     });
 }
